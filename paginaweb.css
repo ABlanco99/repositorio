@@ -1,0 +1,214 @@
+#contenedor{
+	position: relative;
+	width: 1600px;
+	height: 900px;
+	border-style: solid;
+	background-image: url("frase.jpg");
+	margin: auto;
+}
+#contenedor1{
+	position: absolute;
+	float: left;
+	left: 0px;
+	width: 400px;
+	height: 900px;
+	border-style: solid;
+	background-image: url("Fondo pagina.jpg");
+}
+#contenedor2{
+	position: absolute;
+	float: right;
+	left: 400px;
+	width: 800px;
+	height: 900px;
+	border-style: solid;
+	background-image: url("frase.jpg");
+}
+#imagen{
+	position: absolute;
+	left: 50px;
+	width: 700px;
+	height: 150px;
+	top: 20px;
+	border-style: solid;
+	background-image: url("Fondo pagina1.jpg");
+}
+#imagen h1{
+	text-align: center;
+	font-family: 'Brush Script MT';
+  	font-style: normal;
+  	font-weight: 600px;
+	font-size:60px;
+	color:white;
+	text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+#menu{
+	position: relative;
+	left: 50px;
+	width: 700px;
+	height: 100px;
+	top: 180px;
+	border-style: solid;
+	background-image: url("Fondo pagina.jpg");
+}
+
+ ul, ol {
+    list-style:none;
+   }
+   
+   .nav > li {
+	float: left;
+
+	width: 124px;
+	height: 100px;
+   }
+   
+   .nav li a {
+    background-image: url("frase.jpg");
+    color:#fff;
+    text-decoration:none;
+    padding:12px 10px;
+    display:block;
+   }
+   
+   .nav li a:hover {
+    background-image: url("Fondo pagina1.jpg");
+   }
+   
+   .nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+   }
+   
+   .nav li:hover > ul {
+    display:block;
+    position:absolute;
+    
+   }
+   
+
+#cuerpo{
+	position: absolute;
+	left: 50px;
+	width: 700px;
+	height: 495px;
+	top: 290px;
+	border-style: solid;
+	background-image: url("Fondo pagina.jpg");
+	font: bold 85% cursive;
+}
+#pie{
+	position: absolute;
+	float: right;
+	left: 450px;
+	width: 700px;
+	height: 70px;
+	top: 800px;
+	border-style: solid;
+	background-image: url("Fondo pagina1.jpg");
+}
+
+#contenedor3{
+	position: absolute;
+	float: right;
+	left: 1195px;
+	width: 400px;
+	height: 900px;
+	border-style: solid;
+	background-image: url("Fondo pagina.jpg");
+}
+#anuncio1{
+	position: absolute;
+	top: 250px;
+	right: 85px;
+	float: right;
+	width: 200px;
+	height: 400px;
+	border-style: solid;
+	background-image: url("anuncio.jpg");
+}
+ #anuncio1 a{
+	left: 85px;
+	width: 200px;
+	height: 400px;
+	display: block;
+	z-index: 5;
+	text-decoration: none;
+ }
+#anuncio2{
+	position: absolute;
+	top: 250px;
+	left: 85px;
+	float: left;
+	width: 200px;
+	height: 400px;
+	border-style: solid;
+	background-image: url("anuncio.jpg");
+}
+ #anuncio2 a{
+	left: 85px;
+	width: 200px;
+	height: 400px;
+	display: block;
+	z-index: 5;
+	text-decoration: none;
+ }
+#anuncio3{
+	position: absolute;
+	top: 700px;
+	right: 85px;
+	float: right;
+	width: 200px;
+	height: 150px;
+	border-style: solid;
+	background-image: url("anuncio2.jpg");
+}
+ #anuncio3 a{
+	left: 85px;
+	width: 200px;
+	height: 100px;
+	display: block;
+	z-index: 5;
+	text-decoration: none;
+ }
+#anuncio4{
+	position: absolute;
+	top: 700px;
+	left: 85px;
+	float: left;
+	width: 200px;
+	height: 150px;
+	border-style: solid;
+	background-image: url("anuncio2.jpg");
+}
+ #anuncio4 a{
+	left: 85px;
+	width: 200px;
+	height: 400px;
+	display: block;
+	z-index: 5;
+	text-decoration: none;
+ }
+
+ #gif{
+	position: absolute;
+	top: 30px;
+	left: 110px;
+	float: left;
+	width: 200px;
+	height: 170px;
+}
+#gif2{
+	position: absolute;
+	top: 30px;
+	left: 90px;
+	float: left;
+	width: 200px;
+	height: 170px;
+}
+ h3 {
+	 text-align: center;
+	 color: #0000FF;
+
+}
